@@ -1,0 +1,35 @@
+@use "./../../scss/variables.scss" as *;
+.teamCard {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background: $second-block-color;
+  border-radius: 30px;
+  text-align: center;
+  padding: 15px;
+
+  &__avatar {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: -70px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  &__name {
+    margin-top: 70px;
+    font-size: $default-font;
+    font-weight: 600;
+  }
+  &__post {
+    width: 220px;
+    position: absolute;
+    bottom: 15px;
+    font-size: $small-font;
+    font-weight: 600;
+    color: $accent-color;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

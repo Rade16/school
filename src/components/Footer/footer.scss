@@ -1,0 +1,21 @@
+@use "./../../scss/variables.scss" as *;
+.footer {
+  margin-top: 30px;
+  background: $second-block-color;
+  padding: 30px 0;
+  &__title {
+    font-size: $small-font;
+    font-weight: bold;
+    width: 490px;
+  }
+  &__address {
+    margin-top: 10px;
+    width: 430px;
+  }
+  &__contacts {
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+    font-size: $small-font;
+  }
+}

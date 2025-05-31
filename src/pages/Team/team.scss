@@ -1,0 +1,31 @@
+@use "./../../scss/variables.scss" as *;
+.team {
+  &__header {
+    margin-top: 30px;
+    width: 100%;
+    height: 160px;
+    border-radius: 30px;
+    background: url("./../../assets/team/header.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    gap: 5px;
+    background-position: 0 -100px;
+    margin-bottom: 30px;
+    &-title {
+      color: $second-font-color;
+      font-weight: 600;
+      font-size: 60px;
+    }
+  }
+  &__line {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 90px;
+  }
+}

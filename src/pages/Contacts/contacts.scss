@@ -1,0 +1,55 @@
+@use "./../../scss/variables.scss" as *;
+.contacts {
+  &__header {
+    margin-top: 30px;
+    width: 100%;
+    height: 160px;
+    border-radius: 30px;
+    background: url("./../../assets/contacts/header.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    gap: 5px;
+    &-title {
+      color: $second-font-color;
+      font-weight: 600;
+      font-size: 60px;
+    }
+  }
+  &__line {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+  &__title {
+    margin-top: 30px;
+    width: 900px;
+  }
+  &__route {
+    margin-top: 10px;
+  }
+
+  &__managers {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  &__map {
+    margin-top: 10px;
+    width: 100%;
+    &-title {
+      margin-top: 30px;
+      font-size: $medium-font;
+      font-weight: 600;
+    }
+    &-wrapper {
+      margin-top: 10px;
+      overflow: hidden;
+      border-radius: 30px;
+    }
+  }
+}
