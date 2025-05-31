@@ -22,10 +22,11 @@
     }
   }
   &__line {
+    justify-content: center;
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 20px;
     row-gap: 90px;
   }
 }

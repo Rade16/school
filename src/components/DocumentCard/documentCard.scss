@@ -20,15 +20,25 @@
     align-items: center;
     &-view {
       cursor: pointer;
+      transition: 0.3s ease-out;
+      &:hover {
+        transform: translateY(-3px);
+      }
     }
     &-download {
       width: 25px;
       height: 25px;
       cursor: pointer;
+      transition: 0.3s ease-out;
+
+      &:hover {
+        transform: translateY(-3px);
+      }
     }
   }
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 0px 5px 5px 0px rgba(122, 107, 244, 0.3);
+    box-shadow: 0px 3px 5px 0px rgba(122, 107, 244, 0.3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   }
 }

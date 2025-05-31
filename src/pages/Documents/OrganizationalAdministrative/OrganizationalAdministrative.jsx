@@ -28,7 +28,7 @@ const OrganizationalAdministrative = () => {
         <div className="documents__header">
           <p className="documents__header-title">Документы</p>
           <p className="documents__header-subtitle">
-            Организационно-правовые документы
+            Организационно-распорядительные документы
           </p>
         </div>
         <ul className="documents__list">

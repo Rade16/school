@@ -51,6 +51,14 @@ const router = createBrowserRouter([
         element: <OrganizationalAdministrative />,
       },
       {
+        path: "/documents/organizational-legal",
+        element: <OrganizationalLegal />,
+      },
+      {
+        path: "/documents/administrative",
+        element: <Administrative />,
+      },
+      {
         path: "/news",
         element: <News />,
       },
